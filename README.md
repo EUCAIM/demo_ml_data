@@ -51,7 +51,9 @@ Therefore:
 
 The model to test is the following:
 
-$\text{blood presure}_{\text{case vs. control}} = PM_{25} + age + sex + cbmi$
+```
+blood presure = PM25 + age + sex + cbmi
+```
 
 It is read as:
 
