@@ -43,7 +43,7 @@ write.csv( z2.2, file = "./data/two_datasites_scenario/z2_2.csv", quote = FALSE,
 Therefore:
 
  * There are two possible scenarios: two or three data-sites available
- * Each file contains a third or a half of the full data-sets
+ * Each file contains a half or a third of the full data-sets
  * Each files contains the same variables (aka. columns)
  * Some variables have missing values codded as `NA`
 
@@ -57,7 +57,7 @@ blood presure = PM25 + age + sex + cbmi
 
 It is read as:
 
-The dependent variables is *blood pressure*, and it is explained by the independent variable *PM25*. The model is also corrected by the phenotipical co-variates *age*, *sex*, and *corrected BMI*.
+The dependent variable is *blood pressure*, and it is explained by the independent variable *PM25*. The model is also corrected by the phenotipical co-variates *age*, *sex*, and *corrected BMI*.
 
 ### Ground truth
 
